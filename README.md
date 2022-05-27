@@ -1,3 +1,4 @@
+![Architectural-Diagram](https://user-images.githubusercontent.com/66011703/170743058-3b8ab919-1d8a-4942-aa84-846b8cbf6668.JPG)
 # Steps followed for Refactoring
 
 To keep it simple, didn’t use any framework to avoid unnecessary installations of jars. Created a simple Java application.
