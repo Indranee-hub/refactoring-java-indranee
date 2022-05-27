@@ -13,8 +13,8 @@ The generated statement must contain certain pre-defined values. (Covered with t
 
 ## Approach:
 
-As there will be different genres of movies with some common properties, I used Factory Method Pattern which allows the sub-classes to choose the type of objects to create.
-Movie.java - the abstract class with the common properties.
+#As there will be different genres of movies with some common properties, I used Factory Method Pattern which allows the sub-classes to choose the type of objects to create.
+#Movie.java - the abstract class with the common properties.
 MovieFactory.java – Factory class to create Object based on Movie Type.
 ChildrenMovie.java, NewMovie.java, RegularMovie.java- extends class Movie.java and override cost calculation and bonus calculation method.
 Used more meaningful variable names. 
