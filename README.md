@@ -13,15 +13,25 @@ The generated statement must contain certain pre-defined values. (Covered with t
 
 ## Approach:
 
-#As there will be different genres of movies with some common properties, I used Factory Method Pattern which allows the sub-classes to choose the type of objects to create.
-#Movie.java - the abstract class with the common properties.
+As there will be different genres of movies with some common properties, I used Factory Method Pattern which allows the sub-classes to choose the type of objects to create.
+
+Movie.java - the abstract class with the common properties.
+
 MovieFactory.java – Factory class to create Object based on Movie Type.
+
 ChildrenMovie.java, NewMovie.java, RegularMovie.java- extends class Movie.java and override cost calculation and bonus calculation method.
+
 Used more meaningful variable names. 
+
 Instead of declaring multiple strings, used StringBuilder with append method as StringBuilder is mutable and memory efficient, and the fastest in string manipulation
+
 Removed if-else with Switch case.
+
 Covered negative scenarios with exception handling.
+
 Covered possible scenarios with testcases using Junit.
+
 Used Enum for movie Types for compile-time type safety.
+
 Tried to keep the application in align with the original code so that the test suit pass without much changes.
 
