@@ -6,15 +6,15 @@ To keep it simple, didn’t use any framework to avoid unnecessary installations
 ## Problem Statement:
 
 There can be n types of movies.
-Different moves will be having different condition to generate cost.
-Different movies can have different logic for bonus point calculation
-The generated statement must contain certain pre-defined values. (Covered with test in Main.java class)
+Different movies will be having different condition to generate cost.
+Different movies can have different logic for bonus point calculation.
+The generated statement must contain certain predefined values. (Covered with test in Main.java class)
 
 
 
 ## Approach:
 
-As there will be different genres of movies with some common properties, I used Factory Method Pattern which allows the sub-classes to choose the type of objects to create.
+As there will be different genres of movies with some common properties, I used Factory Design Pattern which allows the sub-classes to choose the type of objects to create.
 
 Movie.java - the abstract class with the common properties.
 
